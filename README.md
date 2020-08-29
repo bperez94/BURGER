@@ -5,8 +5,6 @@
 
 # By Brandon Perez
 
-# Screen Shot
- <img scr="ScreenshotBurger.png" >
 
 ## Table of Contents
 * [Description](#Description)
