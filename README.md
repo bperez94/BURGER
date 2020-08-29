@@ -5,7 +5,7 @@
 
 # By Brandon Perez
 
-# Scree Shot
+# Screen Shot
  <img scr = "ScreenshotBurger.png">
 
 ## Table of Contents
