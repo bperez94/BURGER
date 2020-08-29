@@ -1,0 +1,34 @@
+<header>
+    <h1>Eat Burgers!</h1>
+</header>
+
+<form class = "bugerSubmit">
+     <div class="form-group">
+         <label for = "makeBurger">Make a Burger</label>
+         <input type= "text" class="form-control" id="makeBurger" name="burger_name">
+     </div>
+    
+    <button type="button" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<br>
+
+<h3>Burgers im going to eat</h3>
+<br>
+<br>
+<ul id="toEat">
+ {{#each burgers}}
+        {{#unless devoured}}
+            {{>burgers/burger-block devoured = true}}
+        {{/unless}}
+      {{/each}}
+</ul>
+
+<h4>Burgers ate</h4>
+<ul>
+     {{#each burgers}}
+        {{#if devoured}}
+             {{>burgers/burger-block devoured = false}}
+        {{/if}}
+      {{/each}}
+</ul>

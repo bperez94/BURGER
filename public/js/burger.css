@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+h3 {
+    float: right;
+    position: relative;
+    left: -50px;
+}
+
+#toEat {
+    float: right;
+    position: relative;
+    left: -50px;
+}
+
+body {
+    background-color: yellow;
+}
