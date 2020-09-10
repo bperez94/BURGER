@@ -5,6 +5,8 @@
 
 # By Brandon Perez
 
+# Screen Shot
+ <img src = "ScreenshotBurgerCom.png">
 
 ## Table of Contents
 * [Description](#Description)
